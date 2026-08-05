@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2026-08-04 16:08:59" Creator="Patrick Irvin" Comments="" ID="1dc2190865cf5acf99a38b77b0caf1ca">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2026-08-05 11:56:05" Creator="Patrick Irvin" Comments="" ID="1203d5d32af4a934f40eb0147aeb4355">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control</Package_File_Name>
-    <Library_Version>1.4.0.19</Library_Version>
+    <Library_Version>1.4.1.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -48,7 +48,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>Add Error information to Message cluster</Release_Notes>
+      <Release_Notes>fix timeout error and handling Message.error</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +227,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BD975314BAB43E81EB8148F9F5FBFA3</GUID>
+      <GUID>0861BB7CC88242E93CC8EDB7F8AB2D42</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -318,7 +318,7 @@
         <Path>..\src\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85EA425D7A290109FF99B1B5A629DEBC</GUID>
+      <GUID>34DEC0DE69955231B7CC8ED27457FF1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -619,7 +619,7 @@
         <Path>..\src\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BB975AB900093E9ED727E40B31222F3</GUID>
+      <GUID>779F3EA5B7D96730D84676654EFA59CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -780,7 +780,7 @@
         <Path>..\src\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>477C83AB645A1589BFB6C4FA83C55744</GUID>
+      <GUID>3AA73F081993005DE66354D16538C35A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -857,7 +857,7 @@
         <Path>..\src\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>039376E2C4E268609708FF33A5C835D1</GUID>
+      <GUID>35E58DB464894B1D62848FF9F08836DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1004,7 +1004,7 @@
         <Path>..\src\RemoteControl\Private\Time Message Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99F66C7EA6DA504CB51298A0E110A2BE</GUID>
+      <GUID>AFB1EFA9B5A39993CE652706B0FD544F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
